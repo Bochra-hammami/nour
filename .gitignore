@@ -1,0 +1,24 @@
+# Clés et secrets : JAMAIS sur GitHub
+.env
+*.env
+!.env.example
+
+# Fichiers générés (on les recrée avec les scripts)
+donnees/
+**/donnees/
+
+# Grosses bases de données
+*.db
+*.db-shm
+*.db-wal
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Éditeurs / système
+.vscode/
+.idea/
+.DS_Store
