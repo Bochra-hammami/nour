@@ -38,3 +38,14 @@
 Fautes de la source corrigées dans `nettoyer_risala.py` (`CORRECTIONS`) :
 - « رُكْبَتَيْهِوأسافلَ » → « رُكْبَتَيْهِ وأسافلَ » (باب في الغسل)
 - « إِنَّانَسْتَجِيرُ » → « إِنَّا نَسْتَجِيرُ » (الدعاء للميت)
+
+## مختصر الأخضري — أبو زيد عبد الرحمن الأخضري (مالكي، ت 983 هـ)
+
+- Texte de référence : « متن الأخضري في العبادات على مذهب الإمام مالك », مكتبة ومطبعة محمد علي صبيح وأولاده، ميدان الأزهر
+- Shamela n° 31995 (https://shamela.ws/book/31995), 24 pages, numérotation conforme à l'imprimé, relu par أبو ياسر الجزائري
+- Copie utilisée pour les pages : corpus OpenITI (`pipeline/akhdari/akhdari_shamela_openiti.txt`)
+- Texte utilisé : version de l'équipe (`pipeline/akhdari/al_akhdari_source.txt`), identique mot pour mot à la Shamela sauf :
+  - la مقدمة (أول ما يجب على المكلف…) est retirée ;
+  - les titres « فصل في … » sont devenus « باب في … », « (وسنتها) » → « سنن الصلاة », « (وفضائلها) » → « فضائل الصلاة » ;
+  - les 2 فصول de début de الطهارة (الطهارة قسمان… / إذا تعينت النجاسة…), absents de la version de l'équipe, ont été remis.
+- 7 abwab : الطهارة، التيمم، الحيض، النفاس (kitab الطهارة) · الأوقات، شروط الصلاة، السهو (kitab الصلاة)
