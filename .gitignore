@@ -1,8 +1,8 @@
 # Clés et secrets : JAMAIS sur GitHub
 .env
+.env.*
 *.env
 !.env.example
-
 # Fichiers générés (on les recrée avec les scripts)
 donnees/
 **/donnees/
@@ -22,3 +22,8 @@ venv/
 .vscode/
 .idea/
 .DS_Store
+
+# Frontend
+node_modules/
+dist/
+.vercel/
